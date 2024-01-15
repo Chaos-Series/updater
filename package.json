@@ -1,0 +1,18 @@
+{
+  "name": "chaos_updater",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "author": {
+    "name": "zas"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "discord-webhook-node": "^1.1.8",
+    "node-cron": "^3.0.3"
+  }
+}
