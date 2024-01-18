@@ -5,7 +5,7 @@ import actualizarFotoPerfilForzado from "./functions/actualizarFotoPerfilForzado
 import actualizarNombre from "./functions/actualizarNombre.js";
 import conseguirEstadisticas from "./functions/conseguirEstadisticas.js"
 
-cron.schedule("*/7 * * * *", () => {
+cron.schedule("*/7 */1 * * *", () => {
   console.log("Actualizando fotos de perfil.")
   actualizarFotoPerfil();
 });
@@ -14,7 +14,7 @@ cron.schedule("0 7 * * *", () => {
   actualizarFotoPerfilForzado();
 });
 
-cron.schedule("*/3 * * * *", () => {
+cron.schedule("*/25 */1 * * *", () => {
   actualizarNombre();
 });
 

@@ -74,7 +74,7 @@ export default async function actualizarNombre() {
             }
           } catch (e) {
             console.log(e);
-            hook.send("Fallo en la función actualizar nombre." + response1.data.result[cuenta]["invocador"] + "#" + response1.data.result[cuenta]["tag"]);
+            //hook.send("Fallo en la función actualizar nombre." + response1.data.result[cuenta]["invocador"] + "#" + response1.data.result[cuenta]["tag"]);
           }
         }
       }
